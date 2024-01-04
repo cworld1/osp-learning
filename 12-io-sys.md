@@ -36,10 +36,6 @@ I/O 设备技术呈现两个相矛盾的趋势：
 
 控制器： 是用于操作端口、总线或设备的一组电子器件。
 
-一个典型的 PC 总线结构：
-
-![](blob:https://www.wolai.com/0005899e-b8e5-4406-bec3-aff4f82ab058)
-
 处理器如何向控制器发送命令和数据以完成 I/O 传输？
 
 - 控制器可以有一个或多个用于数据和控制信号寄存器。处理器通过读写这些寄存器的位模式来与控制器通信。这种通信的一种方法是通过使用特殊 I/O 指令来向指定的 I/O 端口地址传输一个字节或字。
@@ -162,10 +158,6 @@ Consider reading a file from disk for a process:
 - Return control to process
 
 ### Life Cycle of An I/O Request
-
-如图：
-
-![](blob:https://www.wolai.com/5454e999-5376-4ec7-9544-b18d20ab7695)
 
 ## STREAMS
 
