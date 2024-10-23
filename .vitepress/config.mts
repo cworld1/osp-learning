@@ -10,6 +10,7 @@ export default defineConfig({
   },
   lastUpdated: true,
   cleanUrls: true,
+  base: '/osp-learning/'
 
   head: [
     ["link", { rel: "icon", type: "image/ico", href: "/favicon.ico" }],
